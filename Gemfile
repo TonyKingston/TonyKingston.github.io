@@ -11,6 +11,7 @@ end
 group :jekyll_plugins do
   #gem 'jekyll-admin'
   gem 'jekyll-avatar', '~> 0.8.0'
+  gem 'jekyll-compose'
   #gem 'rackup'
 end
 

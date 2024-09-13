@@ -234,3 +234,18 @@ jekyll_admin:
     - datafiles
     - configuration
   homepage: "pages"
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      category:
+      tags:
+    posts:
+      description:
+      image:
+      category:
+      tags:
+      published: false
+      sitemap: false
