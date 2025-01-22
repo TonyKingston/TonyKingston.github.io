@@ -13,7 +13,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Check Spelling
       uses: rojopolis/spellcheck-github-actions@v0.5.0
-
+    with:
+      config_path: config/.spellcheck.yml
+      
 name: Lint
 on:
   pull_request:
